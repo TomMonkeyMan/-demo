@@ -126,10 +126,6 @@ class HmmTrain:
     
         return trans_dict, emit_dict, start_dict
 
-    
-
-
-
 if __name__ == "__main__":
     train_filepath = './data/train.txt'
     trans_path = './model/prob_trans.model'
